@@ -24,7 +24,10 @@ To install the Danom Node CLI, run the following command:
 ```bash
 curl -sSfL 'https://raw.githubusercontent.com/DanomSite/release/refs/heads/main/install.sh' | bash
 ```
-
+## Run Danom After Downloading the Resource
+```bash
+~/Danom/danom
+```
 ## Config Danom Node
 After download and installing the resource, the Danom Node is working and you need to entering two parameter
 - enter your EVM Wallet address (start with 0x)
@@ -35,11 +38,6 @@ After download and installing the resource, the Danom Node is working and you ne
 After installation, the Danom Node is working.
 
 ---
-
-### Run Danom Manually | After Downloading the Resource
-```bash
-~/Danom/danom
-```
 
 ### Dashboard
 - Connect your wallet to [Danom Dashboard](https://testnet.danom.site)
