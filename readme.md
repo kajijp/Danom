@@ -24,9 +24,13 @@ To install the Danom Node CLI, run the following command:
 ```bash
 curl -sSfL 'https://raw.githubusercontent.com/DanomSite/release/refs/heads/main/install.sh' | bash
 ```
+## Open Danom folder where you downloaded
+```bash
+cd Danom
+```
 ## Run Danom After Downloading the Resource
 ```bash
-~/Danom/danom
+./danom
 ```
 ## Config Danom Node
 After download and installing the resource, the Danom Node is working and you need to entering two parameter
