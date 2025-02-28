@@ -18,8 +18,8 @@ To run a Danom node, ensure your system meets the following minimum requirements
 **For Linux/VPS users**:
 * You are good to go and keep going through the following guide.
 
-## Install Danom Node CLI
-To install the Danom Node CLI, run the following command:
+## Download Danom Node Release
+Download Danom Node CLI file, run the following command:
 ```bash
 wget https://github.com/DanomSite/release/releases/download/v2/DanomV2.tar.gz
 ```
