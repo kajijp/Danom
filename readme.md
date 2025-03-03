@@ -43,11 +43,13 @@ After download and installing the resource, the Danom Node is working and you ne
 - enter your EVM Wallet address (start with 0x)
 - enter your HuggingFace API
 
----
-
 After installation, the Danom Node is working.
 
 ---
+
+## Usefull Information
+### Huggingface API
+this is free, sign up and create your HuggingFace API at [https://huggingface.co](https://huggingface.co/join)
 ### Edit Wallet & API in CLI Config
 ```you can change your wallet and HuggingFace API
 nano wallet_config.json
