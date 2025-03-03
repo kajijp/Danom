@@ -48,7 +48,10 @@ After download and installing the resource, the Danom Node is working and you ne
 After installation, the Danom Node is working.
 
 ---
-
+### Edit Wallet & API in CLI Config
+```you can change your wallet and HuggingFace API
+nano wallet_config.json
+```
 ### Dashboard
 - Connect your wallet to [Danom Dashboard](https://testnet.danom.site)
 - Claim your reward and receive your Danom Token in your EVM Wallet
