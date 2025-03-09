@@ -21,7 +21,7 @@ To run a Danom node, ensure your system meets the following minimum requirements
 ## Download Danom Node Release
 Download & extract Danom Node CLI file, run the following command:
 ```bash
-wget https://github.com/DanomSite/release/releases/download/v4/DanomV4.tar.gz && tar -xvzf DanomV4.tar.gz
+wget https://github.com/DanomSite/release/releases/download/v5/DanomV5.tar.gz && tar -xvzf DanomV5.tar.gz
 ```
 ## Open Danom folder where you downloaded
 ```bash
