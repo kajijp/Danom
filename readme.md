@@ -1,67 +1,100 @@
-# Danom Node Guide
+# 📘 Panduan Node Danom
 
-In this guide, we will go through setting up and running a Danom node to earn **Danom Testnet Token** for future Danom Mainnet token airdrop!
+Panduan ini akan membimbing kamu untuk **mengatur dan menjalankan node Danom**, agar bisa mendapatkan **Token Testnet Danom** yang nantinya akan menjadi airdrop untuk token Mainnet Danom! 🚀
+
+Kalian juga bisa menukarkan hasil dari mining menjadi ETH Sepolia di [sepolia.danom.site](https://sepolia.danom.site)
 
 ---
-# Danom Earning
-Go through the complete process of earning **Danom Token** in your EVM Wallet by:
-* Setting up a node.
-* Keeping node online and Completing the task.
 
-## System Requirements
-To run a Danom node, ensure your system meets the following minimum requirements:
+# 🎯 Cara Mendapatkan Token Danom
 
-- **CPU**: 4 cores
+Ikuti proses lengkap untuk mendapatkan **Token Danom** ke dalam dompet EVM kamu dengan cara:
+* Menjalankan node Danom.
+* Menjaga node tetap online dan menyelesaikan tugas.
+
+## 🖥️ Spesifikasi Minimum
+
+Pastikan sistem kamu memenuhi spesifikasi berikut untuk menjalankan node Danom:
+
+- **CPU**: 4 core
 - **RAM**: 8 GB
 - **Storage**: 10 GB
 
-**For Linux/VPS users**:
-* You are good to go and keep going through the following guide.
+**Untuk pengguna Linux/VPS**:  
 
-## Download Danom Node Release
-Download & extract Danom Node CLI file, run the following command:
+---
+
+
+
+## 📦 Unduh Danom Node
+
+Unduh dan ekstrak file Danom Node CLI dengan perintah berikut:
 ```bash
 wget https://github.com/DanomSite/release/releases/download/v5/DanomV5.tar.gz && tar -xvzf DanomV5.tar.gz
 ```
-## Open Danom folder where you downloaded
+
+## 📂 Buka Folder Danom
+
+Masuk ke folder Danom yang sudah diunduh:
 ```bash
 cd Danom
 ```
 
-## Install Dependency
-To Installing all Dependency we are needed, run the following command:
+## 🔧 Instalasi Dependency
+
+Untuk menginstal semua dependency yang dibutuhkan, jalankan:
 ```bash
 curl -fsSL 'https://testnet.danom.site/install.sh' | bash
 ```
 
-## Run Danom After Downloading the Resource
+## 🚀 Jalankan Danom Setelah Selesai Diunduh
+
 ```bash
 ./danom
 ```
-## Config Danom Node
-After download and installing the resource, the Danom Node is working and you need to entering two parameter
-- enter your EVM Wallet address (start with 0x)
-- enter your HuggingFace API
 
-After installation, the Danom Node is working.
+## ⚙️ Konfigurasi Node Danom
+
+Setelah unduhan dan instalasi selesai, node Danom akan berjalan dan kamu akan diminta memasukkan dua parameter:
+- Alamat dompet EVM kamu (dimulai dengan `0x`)
+- API HuggingFace kamu
+
+Setelah itu, node akan aktif dan berjalan. 🎉
 
 ---
 
-## Usefull Information
-### Huggingface API
-this is free, sign up and create your HuggingFace API at [https://huggingface.co](https://huggingface.co/join)
-### Edit Wallet & API in CLI Config
-```you can change your wallet and HuggingFace API
+## ℹ️ Informasi Berguna
+
+### 🔑 HuggingFace API
+Gratis! Daftar dan buat API HuggingFace kamu di sini:  
+👉 [https://huggingface.co/join](https://huggingface.co/join)
+
+### ✏️ Edit Wallet & API di Konfigurasi CLI
+Kamu bisa mengubah wallet dan HuggingFace API kapan saja dengan:
+```bash
 nano wallet_config.json
 ```
-### Dashboard
-- Connect your wallet to [Danom Dashboard](https://testnet.danom.site)
-- Claim your reward and receive your Danom Token in your EVM Wallet
 
-## Trade
-You can Buy/Sell Danom token on [Ambient Dex](https://monad.ambient.finance/)
+### 📊 Dashboard
+- Sambungkan wallet kamu ke [Dashboard Danom](https://testnet.danom.site)
+- Klaim reward dan terima Token Danom ke wallet EVM kamu
 
-### Community
-- [Telegram](https://t.me/danom_site)
-- [Discord](https://x.com/danom_site)
-- [X](https://x.com/danom_site)
+---
+
+## 💱 Perdagangan
+
+Kamu bisa beli/jual Token Danom di [Ambient Dex](https://monad.ambient.finance/)
+
+---
+
+## 🌐 Komunitas
+
+Gabung dan ikuti info terbaru:
+
+- 💬 [Telegram](https://t.me/danom_site)
+- 🎮 [Discord](https://x.com/danom_site)
+- 🐦 [X / Twitter](https://x.com/danom_site)
+
+---
+
+🔥 Jalankan node kamu, kumpulkan token, dan jadi bagian dari revolusi Danom sekarang juga!
